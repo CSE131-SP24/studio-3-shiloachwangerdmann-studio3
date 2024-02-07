@@ -35,7 +35,7 @@ public class Sieve {
 	for (int i = 0; i < array.length; i++)
 	{
 		//System.out.println(array[i]);
-		if (array[i] == true && (i != 0 && (i != 1 && i != 4)))
+		if (array[i] == true && (i != 0 && i != 1))
 		{
 			System.out.println(i);
 		}
